@@ -2,7 +2,7 @@
 
 A Split Dropdown for VueJs.
 
-![Alt text](./snapshot.png "relative")
+<img src="snapshot.png" width="50%">
 
 ## Installation
 
@@ -22,7 +22,6 @@ export default {
     return {
       items: [
         { text: 'Github', href: "https://github.com", target: '_blank' }
-
         { text: 'Loggin', onclick: () => console.log('lorem')) }
       ];
     }
@@ -30,7 +29,7 @@ export default {
 }
 </script>
 <template>
-  <split-dropdown items> My Button label </split-dropdown>
+  <split-dropdown :items="items"> My Button label </split-dropdown>
 </template>
 ```
 
